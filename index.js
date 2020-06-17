@@ -1,9 +1,9 @@
 const Koa = require('koa');
 const app = new Koa();
 
-app.use(async ctx => {
+app.use(async context => {
   const rand = Math.floor(Math.random() * 10000)
-  ctx.body = `Hello World: ${rand}`;
+  context.body = `Hello World: ${rand}`;
 });
 
 app.listen(3000);
