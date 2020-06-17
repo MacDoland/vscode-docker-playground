@@ -1,4 +1,4 @@
-# koa-playground
+# vscode-docker-playground
 
 This project is a simple example of what you will need to remote debug a nodejs application running in a docker container.
 
