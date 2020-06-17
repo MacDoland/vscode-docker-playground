@@ -6,6 +6,7 @@ The key elements are that you expose port 9229 (default inpsect port) and use th
 
 VSCodes debug extension will automatically pick up the entry point command if its specified as start in the package.json.
 
+* Build the image from the Dockerfile in the root
 * Run the container 
 * Add a breakpoint in index.js
 * From the Debug tab on the left there should be a run button at the top that says "Docker: Attach to Node" with a green triangle
