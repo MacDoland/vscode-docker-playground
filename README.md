@@ -33,3 +33,6 @@ Install the Remote - Containers extensions
 
 VSCode will auto detect the devcontainer configuration file and prompt you to reload in container. Please do so. You can also trigger this from the green button on the bottom left corner of VSCode <>.
 
+## Further Reading
+https://code.visualstudio.com/docs/containers/debug-node
+https://code.visualstudio.com/docs/remote/containers
