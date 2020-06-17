@@ -1,4 +1,18 @@
-# koa-playground guide
+# koa-playground
+
+This project is a simple example of what you will need to remote debug a nodejs application running in a docker container.
+
+The key elements are that you expose port 9229 (default inpsect port) and use the inspect flag in your package.json.
+
+VSCodes debug extension will automatically pick up the entry point command if its specified as start in the package.json.
+
+* Run the container 
+* Add a breakpoint in index.js
+* From the Debug tab on the left there should be a run button at the top that says "Docker: Attach to Node" with a green triangle
+* Click the green triangle
+* Navigate to http://localhost:3000/ in your browser
+* VSCode Debugger should pause execution on your breakpoint
+
 
 ## Extensions
 
@@ -10,7 +24,7 @@ The first extension I would recommend, especially if you are not familar yet wit
 
 It will give you a visual indicator directly in the IDE on which containers are running.
 
-## Remote - Containers
+### Remote - Containers
 
 Allows you to use a Docker container as a development environment. 
 
